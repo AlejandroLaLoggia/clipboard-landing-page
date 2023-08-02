@@ -1,0 +1,145 @@
+:root {
+    --verdeCyan: hsl(171, 66%, 44%);
+    --azulClaro: hsl(233, 100%, 69%);
+    --blanco: white;
+    --negro: black;
+
+    --grisAzulado: hsl(210, 10%, 33%);
+    --grisClaro: hsl(201, 11%, 66%);
+    --ff: 'Bai Jamjuree', sans-serif;
+    --fw_bold: 600;
+    --fsAll:18;
+}
+
+body {
+    max-width: 1440;
+    font-family: var(--ff);
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    font-size: var(--fsAll);
+    color: var(--grisClaro);
+}
+
+h1, h2, h3, span{
+    color: var(--negro);
+}
+
+h3{
+    font-size: 2.25rem;
+}
+
+span{
+    font-size: 24px;
+    font-weight: var(--fw_bold);
+}
+
+
+.header {
+    margin: 0 0 10rem 0 ;
+    width: 100%;
+
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+
+    background-image: url(../assets/images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+        .header__h1 {
+            font-size: 0;
+        }
+
+        .header__img {
+            margin: 8.125rem 0 3.75rem 0;
+
+        }
+
+        .header__h2 {
+            margin-bottom: 1.125rem;
+            font-size: 2.875rem;
+            font-weight: var(--fw_bold);
+        }
+
+        .header__p,
+        .snippets__p {
+            text-align: center;
+            max-width: 36.875rem;
+            margin-bottom: 2.5rem;
+            line-height: 1.5625rem;
+        }
+
+
+        /*---BOTONES---*/
+
+        .header__buttons {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .button {
+            margin: 0 0.625rem;
+            padding: 1.125rem 2.25rem;
+            border-radius: 1.7188rem;
+            border: 0;
+            font-weight: var(--fw_bold);
+            color: var(--blanco);
+            background-color: var(--verdeCyan);
+        }
+
+        .button:last-child {
+            background-color: var(--azulClaro);
+        }
+
+
+        /*---FIN BOTONES---*/
+
+.main{
+    width: 100%;
+}
+
+.snippets{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.snippets__h3{
+    margin: 0 0 1.875rem 0;
+}
+
+.snippets__p{}
+
+.snippets_content{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+}
+
+.snippets__img{
+    width: 752px;
+    height: 572px;
+    background-color: aqua;
+
+    margin-left: -30px;
+}
+
+.snippets__caract{} 
+
+.caract{}
+
+.caract__items{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.caract__spam{}
+
+.caract__p{
+    width: 350px;
+}
