@@ -7,8 +7,8 @@
   <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="./css/reset_pro.css">
-  <link rel="stylesheet" href="./css/normalize.css">
+  <!-- <link rel="stylesheet" href="./css/reset_pro.css"> -->
+  <!-- <link rel="stylesheet" href="./css/normalize.css"> -->
   <link rel="stylesheet" href="./css/style.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,6 +22,10 @@
 <body>
 
   <header class="header">
+    <picture>
+      <source srcset="./assets/images/bg-header-mobile.png" media="(max-width:600px)">
+      <img class="header__bkg" src="./assets/images/bg-header-desktop.png" alt="imagen de fondo">
+    </picture>
     <h1 class="header__h1">Clipboard
       <img class="header__img" src="./assets/images/logo.svg" alt="Logo de Clipboard">
     </h1>
@@ -44,7 +48,7 @@
       </p>
 
       <div class="snippets_content">
-        <img class="snippets__img" src="" alt="Imagen de una pc">
+        <img class="snippets__img" src="./assets/images/image-computer.png" alt="Imagen de una pc">
         <div class="snippets__caract caract">
 
           <div class="caract__items">
@@ -71,7 +75,7 @@
       <h3 class="access__h3">Access Clipboard anywhere</h3>
       <p class="access__p">Whether you’re on the go, or at your computer, you can access all your Clipboard snippets in
         a few simple clicks.</p>
-      <img class="access__img" src="" alt="Imagen de un celular y una tablet">
+      <img class="access__img" src="./assets/images/image-devices.png" alt="Imagen de un celular y una tablet">
     </section>
 
     <section class="workflow">
@@ -80,21 +84,21 @@
       <div class="workflow__div">
 
         <div class="workflow__item item">
-          <img class="item__img" src="" alt="Icono de una hoja">
+          <img class="item__img" src="./assets/images/icon-blacklist.svg" alt="Icono de una hoja">
           <span class="item__span">Create blacklists</span>
           <p class="item__p">Ensure sensitive information never makes its way to your clipboard by excluding certain
             sources.</p>
         </div>
 
         <div class="workflow__item item">
-          <img class="item__img" src="" alt="Icono de una letra A">
+          <img class="item__img" src="./assets/images/icon-text.svg" alt="Icono de una letra A">
           <span class="item__span">Plain text snippets</span>
           <p class="item__p">Remove unwanted formatting from copied text for a consistent look.
           </p>
         </div>
 
         <div class="workflow__item item">
-          <img class="item__img" src="" alt="Icono de un ojo">
+          <img class="item__img" src="./assets/images/icon-preview.svg" alt="Icono de un ojo">
           <span class="item__span">Sneak preview</span>
           <p class="item__p">Quick preview of all snippets on your Clipboard for easy access.</p>
         </div>
@@ -120,7 +124,7 @@
     </section>
   </main>
 
-  <footer>
+  <footer class="footer"> 
 
     <img class="footer__logo" src="" alt="">
     <ul class="footer__ul">
