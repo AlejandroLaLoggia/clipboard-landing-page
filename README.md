@@ -3,11 +3,13 @@
 This is a solution to the [Clipboard landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/clipboard-landing-page-5cc9bccd6c4c91111378ecb9). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 # Notas
-Maquetado del html y primeros estilos en desktop first.
+
+:construction: Proyecto en construcción :construction:
 
 update 27/8/2023
 Comence a darle estilos, a partir de la vista de escritorio, me base en un comentario de Eduardo Fierro en uno de sus videos, en el que decia:
-> "Las vistas de mobile, son practicamente, siempre las mismas, todas en columna."+
+> "Las vistas de mobile, son practicamente, siempre las mismas, todas en columna".
+
 Partiendo de esa base y repasando videos de Jonmircha sobre flexbox, di casi todos los estilos en desktop y responsive, solo quedan algunos detalles con media queries, como ser tamaño de fuente, margin y padding. 
 
 <!-- ## Table of contents
