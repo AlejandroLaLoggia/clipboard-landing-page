@@ -8,7 +8,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <!-- <link rel="stylesheet" href="./css/reset_pro.css"> -->
-  <!-- <link rel="stylesheet" href="./css/normalize.css"> -->
+  <link rel="stylesheet" href="./css/normalize.css">
   <link rel="stylesheet" href="./css/style.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,7 +22,7 @@
 <body>
 
   <header class="header">
-    <picture>
+    <picture class="header__picture">
       <source srcset="./assets/images/bg-header-mobile.png" media="(max-width:600px)">
       <img class="header__bkg" src="./assets/images/bg-header-desktop.png" alt="imagen de fondo">
     </picture>
@@ -106,11 +106,11 @@
     </section>
 
     <div class="marcas">
-      <img class="marcas__img" src="" alt="Google logo">
-      <img class="marcas__img" src="" alt="IBM logo">
-      <img class="marcas__img" src="" alt="Microsoft logo">
-      <img class="marcas__img" src="" alt="Hewlett Packard logo">
-      <img class="marcas__img" src="" alt="Vector Graphics logo">
+      <img class="marcas__img" src="./assets/images/logo-google.png" alt="Google logo">
+      <img class="marcas__img" src="./assets/images/logo-ibm.png" alt="IBM logo">
+      <img class="marcas__img" src="./assets/images/logo-microsoft.png" alt="Microsoft logo">
+      <img class="marcas__img" src="./assets/images/logo-hp.png" alt="Hewlett Packard logo">
+      <img class="marcas__img" src="./assets/images/logo-vector-graphics.png" alt="Vector Graphics logo">
     </div>
 
     <section class="download">
@@ -126,19 +126,29 @@
 
   <footer class="footer"> 
 
-    <img class="footer__logo" src="" alt="">
+    <img class="footer__logo" src="./assets/images/logo.svg" alt="Copy logo">
+    
+    <div class="footer__link-container">
     <ul class="footer__ul">
       <li class="footer__li"><a class="footer__a" href="#">FAQs</a></li>
       <li class="footer__li"><a class="footer__a" href="#">Contact Us</a></li>
+    </ul>
+
+    <ul class="footer__ul">
       <li class="footer__li"><a class="footer__a" href="#">Privacy Policy</a></li>
       <li class="footer__li"><a class="footer__a" href="#">Press Kit</a></li>
+    </ul>
+
+    <ul class="footer__ul">
       <li class="footer__li"><a class="footer__a" href="#">Install Guide</a></li>
     </ul>
+    </div>
+
     <ul class="footer__social social">
-      <li class="social__li"><a class="social__a" href="#"><img class="social__logo" src="" alt="Facebook logo"></a>
+      <li class="social__li"><a class="social__a" href="#"><img class="social__logo" src="./assets/images/icon-facebook.svg" alt="Facebook logo"></a>
       </li>
-      <li class="social__li"><a class="social__a" href="#"><img class="social__logo" src="" alt="Twitter logo"></a></li>
-      <li class="social__li"><a class="social__a" href="#"><img class="social__logo" src="" alt="Instagram logo"></a>
+      <li class="social__li"><a class="social__a" href="#"><img class="social__logo" src="./assets/images/icon-twitter.svg" alt="Twitter logo"></a></li>
+      <li class="social__li"><a class="social__a" href="#"><img class="social__logo" src="./assets/images/icon-instagram.svg" alt="Instagram logo"></a>
       </li>
     </ul>
     <!-- <p class="attribution">

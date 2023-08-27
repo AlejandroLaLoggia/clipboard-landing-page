@@ -27,7 +27,7 @@ html {
  */
 
 body {
-  margin: 0;
+  
 }
 
 /**
@@ -47,6 +47,15 @@ h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
+
+/**
+* Remove list style
+*/
+
+li{
+  list-style: none;
+}
+
 
 /* Grouping content
    ========================================================================== */
@@ -81,6 +90,7 @@ pre {
 
 a {
   background-color: transparent;
+  text-decoration: none;
 }
 
 /**
@@ -152,6 +162,7 @@ sup {
  */
 
 img {
+  display: block;
   border-style: none;
   max-width: 100%;
 }
@@ -173,6 +184,7 @@ textarea {
   font-size: 100%; /* 1 */
   line-height: 1.15; /* 1 */
   margin: 0; /* 2 */
+  color: inherit;
 }
 
 /**
